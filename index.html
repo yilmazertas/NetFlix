@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com crossorigin">
+    <link href="https://fonts.googleapis.com/css2?  family=Bowlby+one+SC&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<div class="container">
+<div class="container-shadow">
+ <div class="title-fonts">
+    NET<span style="color: red;">FLİX</span>
+ </div>
+   <div class="description-fonts">
+      Thank you for signing up at Netflix.Tell us more about yourself.
+   </div>
+   <div class="container-black-form">
+    <form class="label-fonts" onsubmit="alert('thank you for register...')">
+      <div class="label" for="name">Name</div> 
+      <input type="text" class="forminput" 
+      name="name" required placeholder="enter your name"></input> 
+      <div class="label" for="age">Age</div> 
+      <input type="number" class="forminput" 
+      name="age" required placeholder=" age"></input> 
+      <div class="label" for="email">Email</div> 
+      <input type="email" class="forminput" 
+      name="email" required placeholder="enter your email"></input> 
+      <div class="label" for="content-type">Content Type</div>
+      <select name="content-type"
+      class="forminput">
+      <option value="Series">Series</option>
+      <option value="Movies">Movies</option>
+      <option value="Cartoon">Cartoon</option>
+      <option value="Other">Other</option>
+    </select>
+     <div class="label formborder">
+       <div for="movie-type">Movie Type</div> 
+       <div>
+        <input type="checkbox"
+        name="comedy" id="comedy"/>Comedy 
+       </div>
+       <div>
+        <input type="checkbox"
+        name="action" id="action"/>Action 
+       </div>
+       <div>
+        <input type="checkbox"
+        name="romance" id="romance"/>Romance 
+       </div>
+     </div>
+       <div class="label formborder">
+          <div for="gender">Gender</div>
+           <div>
+            <input type="redio" 
+            name="gender" value="male" />
+            Male
+           </div> 
+           <div>
+            <input type="redio" 
+            name="gender" value="female" />
+            Female
+           </div> 
+           <div>
+            <input type="redio" 
+            name="gender" value="other" />
+            Other
+           </div> 
+       </div>
+         <div class="formborder">
+            <div class="label" for="feedback">Feedback</div>
+            <textarea name="comment"
+              class="forminput">any comment</textarea>
+         </div>
+          <button type="submit">Send</button>
+    </form>
+   </div>
+</div>
+</div>
+</body>
+</html>
